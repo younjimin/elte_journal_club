@@ -440,3 +440,8 @@ footer p {
   html { scroll-behavior: auto; }
   * { transition: none !important; }
 }
+
+.card__body p { margin: 0 0 10px; }
+.card__body strong { color: var(--ink); }
+.card__body ul { margin: 0 0 14px; padding-left: 20px; }
+.card__body li { margin-bottom: 4px; }

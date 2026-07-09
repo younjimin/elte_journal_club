@@ -44,6 +44,8 @@ const TIPS = [
     id: "tip-001",
     title: "How to Become a Demonstrator",
     category: "Academic Life",
+    summary: "Want to lead your own class, boost your CV, and get a bit of financial help along the way? Here's what it actually takes to become a demonstrator.",
+
     body: `
       <p>In our school, one of the nice experiences as a student is becoming a demonstrator. In general, becoming a demonstrator means that you get to lead a class. This role brings you many advantages, for instance, you can have better understanding, you can meet students in another year, a little financial help, and so on. So, how can we become a demonstrator?</p>
       <p><em>* Please be aware that many things might differ depending on your program, department, and course.</em></p>

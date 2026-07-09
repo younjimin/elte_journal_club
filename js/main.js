@@ -128,13 +128,16 @@ function initHomePreview() {
 /* ---------------- Tips ---------------- */
 
 function tipCardHTML(t) {
+  const hasBody = t.body && t.body.trim().length > 0;
   return `
     <article class="card">
       <div class="card__meta">
         <span class="stamp stamp--social">${t.category || "Tip"}</span>
       </div>
       <h3>${t.title}</h3>
-      <p class="summary">${t.body || ""}</p>
+      <p class="summary">${t.summary || ""}</p>
+      ${hasBody ? `<div class="card__body" id="tip-body-${t.id}">${t.body}</div>` : ""}
+      ${hasBody ? `<button class="card__toggle" data-tip-toggle="${t.id}">Read</button>` : ""}
     </article>
   `;
 }
@@ -147,6 +150,13 @@ function initTipsPage() {
     return;
   }
   el.innerHTML = TIPS.map(tipCardHTML).join("");
+  el.querySelectorAll("[data-tip-toggle]").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      const body = document.getElementById(`tip-body-${btn.dataset.tipToggle}`);
+      const open = body.classList.toggle("open");
+      btn.textContent = open ? "Close" : "Read";
+    });
+  });
 }
 
 /* ---------------- Projects ---------------- */
