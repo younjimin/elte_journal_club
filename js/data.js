@@ -40,22 +40,43 @@ Example:
 }
 ------------------------------------------------------------------ */
 const TIPS = [
+  {
+    id: "tip-001",
+    title: "How to Become a Demonstrator",
+    category: "Academic Life",
+    body: `
+      <p>In our school, one of the nice experiences as a student is becoming a demonstrator. In general, becoming a demonstrator means that you get to lead a class. This role brings you many advantages, for instance, you can have better understanding, you can meet students in another year, a little financial help, and so on. So, how can we become a demonstrator?</p>
+      <p><em>* Please be aware that many things might differ depending on your program, department, and course.</em></p>
+
+      <p><strong>1. What does a demonstrator do?</strong></p>
+      <ul>
+        <li>Lead a class on your own</li>
+        <li>Review and grade student work</li>
+        <li>Invigilate during exams</li>
+      </ul>
+
+      <p><strong>2. Why is it a good opportunity for you?</strong></p>
+      <ul>
+        <li><strong>Boost your CV</strong> — it counts as official Teaching Assistant (TA) experience, which looks amazing on your resume for future internships or Master's applications.</li>
+        <li><strong>Build relationships with professors</strong></li>
+        <li><strong>Deepen your knowledge</strong> — as the saying goes, "the best way to learn is to teach." You will master the subject inside out.</li>
+      </ul>
+
+      <p><strong>3. Minimum criteria</strong></p>
+      <ul>
+        <li><strong>Obtained at least 55 credits</strong> — this usually means you can start from your 2nd year. If you completed 1–2 years of a bachelor's in your home country, you might be able to prove you already have 55 credits.</li>
+        <li><strong>You must have taken the course</strong> you want to demonstrate for (a higher grade means a greater chance — 4+ is recommended).</li>
+      </ul>
+
+      <p><strong>4. Good things to know</strong></p>
+      <ul>
+        <li><strong>Talk to the professor first</strong> — it's important to reach out to the course professor before applying. As a first-year student it can feel intimidating to ask, but there's nothing to be afraid of. Don't be afraid of rejection.</li>
+        <li><strong>Typical timeline</strong> — there's no fixed date, but this usually happens mid-to-late semester. Paperwork is processed before the semester starts, so make sure you're not too late.</li>
+      </ul>
+    `
+  },
 
 ];
-
-/* ---- PROJECTS ----------------------------------------------------
-   status: "ongoing" | "done" | "paused"
-------------------------------------------------------------------
-Example:
-{
-  id: "project-001",
-  title: "Campus Energy Usage Dashboard",
-  status: "ongoing",
-  date: "2026-06-15",
-  description: "A visualization of per-building electricity use across ELTE campus.",
-  link: ""
-}
------------------------------------------------------------------- */
 const PROJECTS = [
 
 ];
