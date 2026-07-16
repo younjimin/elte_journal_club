@@ -25,7 +25,30 @@ Example:
 }
 ------------------------------------------------------------------ */
 const ARTICLES = [
+ {
+    id: "article-001",
+    title: "Why Learn Functional Programming When Nobody Uses Haskell at Work?",
+    date: "2026-04-07",
+    author: "Jimin Youn",
+    category: "cs",
+    summary: "Haskell rarely shows up in job postings, so it's tempting to write these courses off as GPA obstacles. Here's why the paradigm still matters more than the language.",
+    url: "",
+    body: `
+      <p>During the first year of a Computer Science BSc program, we are introduced to various paradigms like Imperative, Functional, and Object-Oriented Programming. But why learn Functional Programming when C++ and Java dominate the industry? Since Haskell is rarely seen in job postings, it's easy to feel these subjects exist only to challenge our GPAs.</p>
+      <p>However, if that were the case, I wouldn't be writing this. Let me share why acknowledging the differences between these paradigms is essential for our growth as computer science students.</p>
 
+      <p><strong>1. Different Tools for Different Problems</strong></p>
+      <p>Each paradigm evolved to address specific challenges. Imperative programming focused on managing CPU and memory with maximum efficiency. Object-Oriented Programming emerged to solve the "software crisis," making large-scale systems more maintainable. Today, we face a new set of real-world problems requiring diverse approaches. By remaining flexible, we can achieve the true goal of computing: finding the most efficient solution for the task.</p>
+
+      <p><strong>2. University vs. Bootcamp: Learning the Way of Thinking</strong></p>
+      <p>Why spend years in a degree program when bootcamps offer quicker, practical training? The answer lies in the subjects. Notice our courses aren't titled "Java" or "Haskell"; they are "Object-Oriented" and "Functional Programming." Language trends change every decade, but paradigms endure. Here, a programming language is merely a means to express logic, not the logic itself.</p>
+
+      <p><strong>3. The Convergence of Paradigms</strong></p>
+      <p>While pure functional languages like Haskell have a niche market, their influence is everywhere. Java, the industry staple, has been aggressively implementing functional features like Streams and Lambdas. If you understand the core concepts of the functional paradigm, you won't just "use" these features; you will understand why they exist and how to use them effectively.</p>
+
+      <p>Studying the theory behind paradigms might be challenging, and it's hard to see immediate benefits while struggling. But stay patient. This depth of understanding is what separates a coder from an engineer. It will eventually pay off!</p>
+    `
+  },
 ];
 
 /* ---- TIPS ------------------------------------------------------
@@ -97,28 +120,5 @@ Example:
 }
 ------------------------------------------------------------------ */
 const ACTIVITIES = [
- {
-    id: "article-001",
-    title: "Why Learn Functional Programming When Nobody Uses Haskell at Work?",
-    date: "2026-04-07",
-    author: "Jimin Youn",
-    category: "cs",
-    summary: "Haskell rarely shows up in job postings, so it's tempting to write these courses off as GPA obstacles. Here's why the paradigm still matters more than the language.",
-    url: "",
-    body: `
-      <p>During the first year of a Computer Science BSc program, we are introduced to various paradigms like Imperative, Functional, and Object-Oriented Programming. But why learn Functional Programming when C++ and Java dominate the industry? Since Haskell is rarely seen in job postings, it's easy to feel these subjects exist only to challenge our GPAs.</p>
-      <p>However, if that were the case, I wouldn't be writing this. Let me share why acknowledging the differences between these paradigms is essential for our growth as computer science students.</p>
-
-      <p><strong>1. Different Tools for Different Problems</strong></p>
-      <p>Each paradigm evolved to address specific challenges. Imperative programming focused on managing CPU and memory with maximum efficiency. Object-Oriented Programming emerged to solve the "software crisis," making large-scale systems more maintainable. Today, we face a new set of real-world problems requiring diverse approaches. By remaining flexible, we can achieve the true goal of computing: finding the most efficient solution for the task.</p>
-
-      <p><strong>2. University vs. Bootcamp: Learning the Way of Thinking</strong></p>
-      <p>Why spend years in a degree program when bootcamps offer quicker, practical training? The answer lies in the subjects. Notice our courses aren't titled "Java" or "Haskell"; they are "Object-Oriented" and "Functional Programming." Language trends change every decade, but paradigms endure. Here, a programming language is merely a means to express logic, not the logic itself.</p>
-
-      <p><strong>3. The Convergence of Paradigms</strong></p>
-      <p>While pure functional languages like Haskell have a niche market, their influence is everywhere. Java, the industry staple, has been aggressively implementing functional features like Streams and Lambdas. If you understand the core concepts of the functional paradigm, you won't just "use" these features; you will understand why they exist and how to use them effectively.</p>
-
-      <p>Studying the theory behind paradigms might be challenging, and it's hard to see immediate benefits while struggling. But stay patient. This depth of understanding is what separates a coder from an engineer. It will eventually pay off!</p>
-    `
-  },
+ 
 ];
