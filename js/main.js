@@ -7,12 +7,16 @@ const CATEGORY_LABEL = {
   ai: "AI",
   policy: "Policy",
   env: "Environment",
+  cs: "Computer Science",
+
 };
 const CATEGORY_CLASS = {
   tech: "stamp--tech",
   ai: "stamp--ai",
   policy: "stamp--policy",
   env: "stamp--env",
+  cs: "stamp--cs",
+
 };
 
 function formatDate(iso) {
