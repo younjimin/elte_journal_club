@@ -102,9 +102,25 @@ const TIPS = [
   },
 
 ];
-const PROJECTS = [
 
-];
+const PROJECTS = [
+  {
+
+    id: "project-001",
+
+    title: "ELTE Journal Club Website",
+
+    status: "ongoing",
+
+    date: "2026-07-16",
+
+    description: "The club's own website — built and maintained by members to host articles, tips, and activity updates. A living project that grows alongside everything else we do. If you're interested in, feel free to contact us!",
+
+    link: "https://github.com/younjimin/elte_journal_club"
+
+  },
+
+]; 
 
 /* ---- ACTIVITIES --------------------------------------------------
    type: "meeting" | "social" | "workshop" | "talk", or anything else
